@@ -30,7 +30,7 @@ from nomad.datamodel.metainfo.plot import PlotlyFigure, PlotSection
 from nomad.metainfo import Datetime, MEnum, Quantity, SchemaPackage, Section, SubSection
 from nomad.metainfo.metainfo import Category, Reference, SectionProxy
 from structlog.stdlib import BoundLogger
-from nomad_measurements.utils import HDF5Handler
+# from nomad_measurements.utils import HDF5Handler
 
 configuration = config.get_plugin_entry_point(
     'unicornone_rheed.schema_packages:schema_package_entry_point'
